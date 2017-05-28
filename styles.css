@@ -2,10 +2,225 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Open Sans', sans-serif;
-  font-family: 'Ubuntu', sans-serif;
   font-family: 'Oswald', sans-serif;
+  word-spacing: 1px;
+  letter-spacing: 0.5px;
+}
+h1, h3, h4 {
+  margin: 0;
+  color: #FDFCF4;
+}
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+p {
+  margin: 0;
+}
+
+/*HEADER STYLES*/
+
+header {
+  background-color: #FFFFFF;
+  height: 20%;
+}
+.header-content-top {
+  display: flex;
+  justify-content: flex-end;
+  height: 30%;
+  padding: 0 40px;
+}
+.username-header-list {
+  display: flex;
+  align-items: center;
+}
+.username-header-list img {
+  height: 50px;
+  width: 50px;
+}
+.header-dropdown {
+  background: none;
+  border: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+#header-dropdown {
+  margin-left: 10px;
+}
+.header-content-btm {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70%;
+  margin-bottom: 20px;
+  padding: 0 32px 0 37px;
+}
+nav {
+  width: 60%;
+}
+.nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0;
+}
+.nav-links li {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+}
+.nav-links img {
+  height: 50px;
+  width: 50px;
+  margin-right: 5px;
+}
+.nav-links a {
+  color: #7f7f7f;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.h1-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 h1 {
   margin: 0;
+  color: #64DFD6;
+  font-size: 2.6em;
+}
+.h1-icon img {
+  margin-left: 5px;
+  height: 60px;
+  width: 60px;
+}
+
+/*ARTICLE BACKGROUNDS*/
+
+.ssbro-1 .article-header {
+  background-image: url('assets/option2/39457-mario_super_smash_bros_wallpaper.jpg');
+}
+.ssbro-2 .article-header {
+  background-image: url('assets/option2/39458-luigi_super_smash_bros_wallpaper.jpg');
+}
+.ssbro-3 .article-header {
+  background-image: url('assets/option2/39462-donkey_kong_super_smash_bros_wallpaper.jpg');
+}
+.ssbro-4 .article-header {
+  background-image: url('assets/option2/39463-link_super_smash_bros_wallpaper.jpg');
+}
+.ssbro-5 .article-header {
+  background-image: url('assets/option2/39482-pikachu_super_smash_bros_wallpaper.jpg');
+}
+.ssbro-6 .article-header {
+  background-image: url('assets/option2/39483-samus_super_smash_bros_wallpaper.jpg');
+}
+.ssbro-7 .article-header {
+  background-image: url('assets/option2/39485-fox_super_smash_bros_wallpaper.jpg');
+}
+.ssbro-8 .article-header {
+  background-image: url('assets/option2/39488-kirby_super_smash_bros_wallpaper.jpg');
+}
+/*MAIN STYLES*/
+
+main {
+  display: flex;
+  flex-direction: column;
+  background-color: #ABC8D2;
+  padding: 40px;
+}
+h2 {
+  margin: 0;
+  margin-bottom: 40px;
+  font-size: 2em;
+}
+section {
+  display: flex;
+  flex-wrap: wrap;
+  height: 80%;
+}
+article {
+  height: 50%;
+  width: 23.5%;
+  margin: 0 27px 27px 0;
+  background-color: #7f7f7f;
+  box-shadow: -1px -1px 6px 2px rgba(0,0,0,0.4) inset;
+}
+.article-header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  height: 170px;
+  padding: 10px 15px;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.9;
+  box-shadow: -1px -1px 8px 2px rgba(0,0,0,0.4) inset;
+}
+button {
+  height: 50px;
+  width: 50px;
+  background-image: url('assets/option2/redo-arrow.svg');
+  border: none;
+  border-radius: 50%;
+}
+.view-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: #27A7C6;
+}
+.view {
+  margin-left: 10px;
+  font-size: 1.1em;
+}
+.view-num {
+  font-size: 1.5em;
+}
+.article-main-content {
+  padding: 10px;
+}
+.article-main-content div {
+  margin-bottom: 20px;
+}
+.name-date {
+  margin-top: 20px;
+}
+h3 {
+  margin-top: 0;
+  padding-bottom: 3px;
+  font-size: 1.3em;
+  font-weight: 400;
+  letter-spacing: 0.8px;
+}
+.date {
+  font-size: 0.8em;
+  font-weight: 300;
+}
+.ssbro-link {
+  padding: 5px;
+  font-size: 0.8em;
+  background-color: rgba(230, 234, 237, 0.4);
+}
+article a {
+  color: #27A7C6;
+  text-decoration: none;
+  word-wrap: break-word;
+  hyphens: auto;
+}
+h4 {
+  padding-bottom: 3px;
+  font-size: 0.7em;
+  font-weight: 300;
+  letter-spacing: 0.8px;
+}
+.playlist-name {
+  font-size: 1.2em;
+  font-weight: 400;
+}
+.attachment-number {
+  font-size: 1.7em;
 }
